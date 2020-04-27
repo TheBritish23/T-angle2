@@ -5,5 +5,6 @@ import './styles.css';
 
 $(document).ready(function() {
   $("form#triangle").submit(function(event) {
-  }
-}
+    
+  });
+});
