@@ -7,6 +7,6 @@ export function Triangle(side1, side2, side3){
 }
 
   Triangle.prototype.Typecheck = function();
-    if (true) {
-      
+    if (Angle1&&Angle2) {
+
     }
