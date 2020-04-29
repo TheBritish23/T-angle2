@@ -10,5 +10,9 @@ $(document).ready(function() {
     var Angle3 = parseInt($("input#AngleThree").val());
     var sum = Angle1+Angle2+Angle3;
     console.log(sum);
+    if (true) {
+
+    }
+    event.preventDefault();
   });
 });
