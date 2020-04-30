@@ -21,6 +21,10 @@ h1 {
   color: blue;
 }
 
+#output {
+  font-weight: bold;
+}
+
 #quote {
   display: none;
 }
