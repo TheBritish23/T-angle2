@@ -9,10 +9,11 @@ $(document).ready(function() {
     var Angle2 = parseInt($("input#AngleTwo").val());
     var Angle3 = parseInt($("input#AngleThree").val());
     var sum = Angle1+Angle2+Angle3;
-    console.log(sum);
-    if (Angle1&&Angle2)(Angle2&&Angle3)(Angle3&&Angle1) {
-
-    }
+    console.log(Angle1);
+    $("#output").text(sum);
+    // if (Angle1&&Angle2)(Angle2&&Angle3)(Angle3&&Angle1) {
+    //
+    // }
     event.preventDefault();
   });
 });
