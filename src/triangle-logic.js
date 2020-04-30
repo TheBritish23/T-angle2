@@ -7,6 +7,9 @@ export function Triangle(side1, side2, side3){
 }
 
   Triangle.prototype.Typecheck = function();
-    if (Angle1&&Angle2) {
+    if ((this.side1 > (this.side2 > this.side3))) || ((this.side2 > (this.side1 > this.side3))) {
+      if ((true)) {
+
+      }
 
     }
